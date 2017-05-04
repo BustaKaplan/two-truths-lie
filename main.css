@@ -4,3 +4,66 @@
 html {
     font-size: 62.5%; /* 1rem = 10px - use rem */
 }
+
+body{
+    background-color:#191b32;
+    margin: 0;
+}
+    .container{
+    background-color: white;
+    width:20%;
+    height:20%;
+    margin: 40%;
+    margin-left: 40%;
+    font-size: 1.5rem;
+    padding: 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#guess {
+    align-content: flex-start;
+    margin-left:9%;
+    width: 100%;
+    text-align: left;
+}
+
+.element {
+    margin:2% .5% 2% 5%;
+    border: solid 1px #E8d284;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5%;
+}
+.hover{
+    background-color:#e8d284;
+    color: white;
+}
+
+.lie1 {
+    color: #db6f6f;
+    border: #db6f6f 1px solid;
+}
+.redText {
+    color: #db6f6f;
+    font-weight: bold;
+}
+
+.truth1 {
+    color:#56a589;
+    border: #56a589 1px solid;
+}
+.greenText {
+    color:#56a589;
+    font-weight: bold;
+}
+button {
+    background-color: #62b6cb;
+    border-radius: 5%;
+    width: 25%;
+    align-self: center;
+    
+}
+.cat {
+    display: none;
+}
