@@ -31,7 +31,7 @@ $(document).ready(function() {
 		$(this).addClass("lie1");
 		$('p').html(lieText).removeClass("redText");
 		$('p').html(lieText).addClass("greenText");
-
+		$('button').removeClass('hidden');
 	});
 
 	$('.truth').on('click', function() {

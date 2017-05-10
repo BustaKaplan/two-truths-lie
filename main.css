@@ -64,9 +64,8 @@ button {
     align-self: center;
     
 }
-.cat {
+.cat, .hidden  {
     display: none;
-    
 }
 .cat img {
     margin: 0 auto;
