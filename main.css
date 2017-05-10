@@ -9,11 +9,11 @@ body{
     background-color:#191b32;
     margin: 0;
 }
-    .container{
+.container{
     background-color: white;
     width:20%;
     height:20%;
-    margin: 40%;
+    margin-top: 15%;
     margin-left: 40%;
     font-size: 1.5rem;
     padding: 2%;
@@ -40,7 +40,7 @@ body{
     color: white;
 }
 
-.lie1 {
+.truth1 {
     color: #db6f6f;
     border: #db6f6f 1px solid;
 }
@@ -49,7 +49,7 @@ body{
     font-weight: bold;
 }
 
-.truth1 {
+.lie1 {
     color:#56a589;
     border: #56a589 1px solid;
 }
@@ -64,6 +64,9 @@ button {
     align-self: center;
     
 }
-.cat {
+.cat, .hidden  {
     display: none;
+}
+.cat img {
+    margin: 10% auto 0 auto;
 }
