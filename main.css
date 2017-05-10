@@ -9,11 +9,11 @@ body{
     background-color:#191b32;
     margin: 0;
 }
-    .container{
+.container{
     background-color: white;
     width:20%;
     height:20%;
-    margin: 40%;
+    margin-top: 15%;
     margin-left: 40%;
     font-size: 1.5rem;
     padding: 2%;
@@ -68,5 +68,5 @@ button {
     display: none;
 }
 .cat img {
-    margin: 0 auto;
+    margin: 10% auto 0 auto;
 }
