@@ -7,29 +7,46 @@ $(document).ready(function() {
 		}
 	);
 
+	// $('.lie').on('click', function() {
+	// 	$('.element').removeClass("truth1");
+	// 	var lieText = "Wrong Answer"
+	// 	$(this).addClass("lie1");
+	// 	$('p').html(lieText).removeClass("greenText");
+	// 	$('p').html(lieText).addClass("redText");
+
+	// });
+
+	// $('.truth').on('click', function() {
+	// 	$('.element').removeClass("truth1 lie1");
+	// 	var correctText = "Correct"
+	// 	$(this).addClass("truth1");
+	// 	$('p').html(correctText).removeClass("redText");
+	// 	$('p').html(correctText).addClass("greenText");
+			
+	// })
+
 	$('.lie').on('click', function() {
 		$('.element').removeClass("truth1");
-		var lieText = "Wrong Answer"
+		var lieText = "Correct"
 		$(this).addClass("lie1");
-		$('p').html(lieText).removeClass("greenText");
-		$('p').html(lieText).addClass("redText");
-
+		$('p').html(lieText).removeClass("redText");
+		$('p').html(lieText).addClass("greenText");
+		$('button').removeClass('hidden');
 	});
 
 	$('.truth').on('click', function() {
 		$('.element').removeClass("truth1 lie1");
-		var correctText = "Correct"
+		var correctText = "Wrong Answer"
 		$(this).addClass("truth1");
-		$('p').html(correctText).removeClass("redText");
-		$('p').html(correctText).addClass("greenText");
 
-
+		$('p').html(correctText).removeClass("greenText");
+		$('p').html(correctText).addClass("redText");
+			
 	})
-	//$('button').on('click', function() {})
-	$("button").on("click",function(){
-
-	    $(".cat").css("display","block")
-
+	
+	$('button').on('click', function() {
+		$('.container').css('display', 'none');
+		$('.cat').css('display', 'flex');
 	});
 
 
