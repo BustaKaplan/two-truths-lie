@@ -44,7 +44,8 @@ $(document).ready(function() {
 	})
 	
 	$('button').on('click', function() {
-		
+		$('.container').css('display', 'none');
+		$('.cat').css('display', 'flex');
 	})
 
 });

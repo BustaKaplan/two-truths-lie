@@ -66,4 +66,8 @@ button {
 }
 .cat {
     display: none;
+    
+}
+.cat img {
+    margin: 0 auto;
 }
