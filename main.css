@@ -13,7 +13,7 @@ body{
     background-color: white;
     width:20%;
     height:20%;
-    margin: 40%;
+    margin: 14%;
     margin-left: 40%;
     font-size: 1.5rem;
     padding: 2%;
@@ -62,8 +62,12 @@ button {
     border-radius: 5%;
     width: 25%;
     align-self: center;
-    
+
 }
 .cat {
     display: none;
+    position: absolute;
+    margin-left: 25%;
+    top:15%;
+
 }
